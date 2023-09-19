@@ -1,7 +1,7 @@
 function firstFunction(){
     let nX = document.getElementById('name').value;
-    document.cookie = nX;
-    alert(nX);
+    document.getElementById('uk').innerHTML = nX;
+    document.cookie = nX; 
     location.href = "/name.html"; 
 
 }
